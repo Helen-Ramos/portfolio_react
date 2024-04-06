@@ -1,6 +1,6 @@
-import React from "react"
+import React from 'react'
 import {createGlobalStyle} from "styled-components"
-
+import Navegacao from './Components/Navegacao.jsx'
 
 const GlobalStyle = createGlobalStyle`
 *{
@@ -16,6 +16,7 @@ function App() {
     <>
     <h1>Oi</h1>
     <GlobalStyle/>
+    <Navegacao/>
     </>
   )
 }
